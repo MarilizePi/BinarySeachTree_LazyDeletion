@@ -1,0 +1,631 @@
+-----------------------------------------------------
+-----------------------------------------------------
+Test file: resources/tunes.txt
+
+NOTES: Testing adding and removing songs from tunes.
+-----------------------------------------------------
+Welcome! We have over 59600 in FoothillTunes store!
+Test file: resources/tunes.txt
+
+
+Update at line #1: add,Solo
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 1
+"soft" number of unique SongEntrys (i.e. mSize) = 1
+
+Testing traversing "hard" tunes:
+Solo, 0:4:41, Working Week, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Solo, 0:4:41, Working Week, classic pop and rock
+
+
+
+at line #1: add,Solo
+First item: Solo, 0:4:41, Working Week, classic pop and rock
+
+Last item: Solo, 0:4:41, Working Week, classic pop and rock
+
+
+
+Update at line #2: add,Shadows - Original
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 2
+"soft" number of unique SongEntrys (i.e. mSize) = 2
+
+Testing traversing "hard" tunes:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+
+
+
+at line #2: add,Shadows - Original
+First item: Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+
+Last item: Solo, 0:4:41, Working Week, classic pop and rock
+
+
+
+Update at line #3: add,Tom's Diner
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 3
+"soft" number of unique SongEntrys (i.e. mSize) = 3
+
+Testing traversing "hard" tunes:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #3: add,Tom's Diner
+First item: Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #4: add,Take Me Away
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 4
+"soft" number of unique SongEntrys (i.e. mSize) = 4
+
+Testing traversing "hard" tunes:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #4: add,Take Me Away
+First item: Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #5: add,Here With Me
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 5
+"soft" number of unique SongEntrys (i.e. mSize) = 5
+
+Testing traversing "hard" tunes:
+Here With Me, 0:4:41, Dido, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Here With Me, 0:4:41, Dido, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #5: add,Here With Me
+First item: Here With Me, 0:4:41, Dido, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #6: add,Nuvole Bianche
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 6
+"soft" number of unique SongEntrys (i.e. mSize) = 6
+
+Testing traversing "hard" tunes:
+Here With Me, 0:4:41, Dido, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Here With Me, 0:4:41, Dido, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #6: add,Nuvole Bianche
+First item: Here With Me, 0:4:41, Dido, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #7: add,Luka
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 7
+"soft" number of unique SongEntrys (i.e. mSize) = 7
+
+Testing traversing "hard" tunes:
+Here With Me, 0:4:41, Dido, classic pop and rock
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Here With Me, 0:4:41, Dido, classic pop and rock
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #7: add,Luka
+First item: Here With Me, 0:4:41, Dido, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #8: add,Stoned
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 8
+"soft" number of unique SongEntrys (i.e. mSize) = 8
+
+Testing traversing "hard" tunes:
+Here With Me, 0:4:41, Dido, classic pop and rock
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Here With Me, 0:4:41, Dido, classic pop and rock
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #8: add,Stoned
+First item: Here With Me, 0:4:41, Dido, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #9: add,Get Happy
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 9
+"soft" number of unique SongEntrys (i.e. mSize) = 9
+
+Testing traversing "hard" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #9: add,Get Happy
+First item: Get Happy, 0:6:36, Jean Knight, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Warning: Unable to fulfill request: at line #10: buy,We Belong
+Warning: SongEntry We Belong is out of stock.
+
+at line #10: buy,We Belong
+First item: Get Happy, 0:6:36, Jean Knight, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #11: add,Let's Dance
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 10
+"soft" number of unique SongEntrys (i.e. mSize) = 10
+
+Testing traversing "hard" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #11: add,Let's Dance
+First item: Get Happy, 0:6:36, Jean Knight, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #12: add,Oh What a Feeling
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 11
+"soft" number of unique SongEntrys (i.e. mSize) = 11
+
+Testing traversing "hard" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #12: add,Oh What a Feeling
+First item: Get Happy, 0:6:36, Jean Knight, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #13: add,Stairway To The Stars
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 12
+"soft" number of unique SongEntrys (i.e. mSize) = 12
+
+Testing traversing "hard" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #13: add,Stairway To The Stars
+First item: Get Happy, 0:6:36, Jean Knight, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #14: add,Separate Ways (Worlds Apart)
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 13
+"soft" number of unique SongEntrys (i.e. mSize) = 13
+
+Testing traversing "hard" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #14: add,Separate Ways (Worlds Apart)
+First item: Get Happy, 0:6:36, Jean Knight, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #15: add,Road Home
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 14
+"soft" number of unique SongEntrys (i.e. mSize) = 14
+
+Testing traversing "hard" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Road Home, 0:5:8, The String Cheese Incident, folk
+ Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Road Home, 0:5:8, The String Cheese Incident, folk
+ Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+at line #15: add,Road Home
+First item: Get Happy, 0:6:36, Jean Knight, classic pop and rock
+
+Last item: Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+
+
+
+Update at line #16: add,Traffic
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 15
+"soft" number of unique SongEntrys (i.e. mSize) = 15
+
+Testing traversing "hard" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Road Home, 0:5:8, The String Cheese Incident, folk
+ Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+ Traffic, 0:4:5, Dawn Landes, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Road Home, 0:5:8, The String Cheese Incident, folk
+ Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+ Traffic, 0:4:5, Dawn Landes, classic pop and rock
+
+
+
+at line #16: add,Traffic
+First item: Get Happy, 0:6:36, Jean Knight, classic pop and rock
+
+Last item: Traffic, 0:4:5, Dawn Landes, classic pop and rock
+
+
+
+
+
+Final state of tunes:
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 15
+"soft" number of unique SongEntrys (i.e. mSize) = 15
+
+Testing traversing "hard" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Road Home, 0:5:8, The String Cheese Incident, folk
+ Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+ Traffic, 0:4:5, Dawn Landes, classic pop and rock
+
+
+Testing traversing "soft" tunes:
+Get Happy, 0:6:36, Jean Knight, classic pop and rock
+ Here With Me, 0:4:41, Dido, classic pop and rock
+ Let's Dance, 0:2:45, Jake Shimabukuro, folk
+ Luka, 0:3:52, Suzanne Vega, classic pop and rock
+ Nuvole Bianche, 0:5:58, Ludovico Einaudi, classical
+ Oh What a Feeling, 0:3:42, Gregory Isaac, classic pop and rock
+ Road Home, 0:5:8, The String Cheese Incident, folk
+ Separate Ways (Worlds Apart), 0:5:25, Journey, classic pop and rock
+ Shadows - Original, 0:0:25, Blue Oyster Cult, classic pop and rock
+ Solo, 0:4:41, Working Week, classic pop and rock
+ Stairway To The Stars, 0:3:46, Blue Oyster Cult, classic pop and rock
+ Stoned, 0:11:47, Dido, classic pop and rock
+ Take Me Away, 0:4:32, Blue Oyster Cult, classic pop and rock
+ Tom's Diner, 0:2:40, Suzanne Vega, classic pop and rock
+ Traffic, 0:4:5, Dawn Landes, classic pop and rock
+
+
+
+Done with FoothillTunesStore.
+
+
+--------------------------------------------------
+---------------------------------------------------
+Test file: resources/tunes_empty.txt
+
+NOTES: Testing when list of songs is empty.
+---------------------------------------------------
+Welcome! We have over 59600 in FoothillTunes store!
+Test file: resources/tunes_empty.txt
+
+
+Update at line #1: add, .
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 0
+"soft" number of unique SongEntrys (i.e. mSize) = 0
+
+Testing traversing "hard" tunes:
+
+
+Testing traversing "soft" tunes:
+
+
+
+at line #1: add, .
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+
+Update at line #3: buy, .
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 0
+"soft" number of unique SongEntrys (i.e. mSize) = 0
+
+Testing traversing "hard" tunes:
+
+
+Testing traversing "soft" tunes:
+
+
+
+at line #3: buy, .
+Warning: minimum element not found!
+Warning: minimum element not found!
+
+
+
+
+Final state of tunes:
+"hard" number of unique SongEntrys (i.e. mSizeHard) = 0
+"soft" number of unique SongEntrys (i.e. mSize) = 0
+
+Testing traversing "hard" tunes:
+
+
+Testing traversing "soft" tunes:
+
+
+
+Done with FoothillTunesStore.

@@ -1,0 +1,8 @@
+add onion
+add cereal
+add wiki
+buy milk
+buy bread
+buy juice
+add pie
+add chicken
